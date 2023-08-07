@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto:ital,wght@0,100;0,300;0,900;1,100;1,300;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+ height: 100px;
+background-color: white;
+justify-content: center;
+align-items: center;
+position: fixed;
+width: 100%;
+}
+.logo{
+    flex: 20%;
+    margin-left: 10%;
+    /* border: 1px solid red; */
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+.logo h1{
+    font-family: 'Playfair Display SC', serif;
+    color: rgb(2, 2, 57);
+    font-size: 34px;
+}
+.menu{
+    flex: 70%;
+    /* border: 1px solid green; */
+    text-align: right;
+    padding: 20px;
+}
+.menu a{
+    color: rgb(0, 0, 57);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+.menu a:hover{
+    color: rgb(250, 138, 156);
+    border-top: 4px solid   rgb(0, 0, 57) ;
+
+}
+#botao{
+    background: rgb(0, 0, 57);
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+#botao:hover{ 
+    border: none;
+    background:rgb(250, 138, 156);
+}
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+ 
+}
+.headline{
+    margin-left: 10%;
+    flex: 40%;
+    /* border: 1px solid black; */
+}
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(0, 0, 57);
+    padding: 0%;
+    margin: 0%;
+}
+.headline p{
+    color:rgb(0, 0, 57);
+    text-align: left;
+}
+.contact{
+    background:rgb(250, 138, 156); 
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.contact:hover{
+    background: rgb(0, 0, 57);
+
+}
+.img-headline{
+    margin-right:10% ;
+    flex:40%;
+    /* border: 1px solid brown; */
+text-align: center;
+}
+section{
+    margin-top: 80px;
+    /* border: 1px solid black; */
+    margin-right: 5%;
+    margin-left:5%;
+    height: 400px;
+    text-align: center;
+}
+section h2{
+    width:100%;
+    font-size: 50px;
+    font-family:'Playfair Display SC', serif ;
+    font-weight:bold;
+    color: rgb(0,0,57);
+}
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+margin: 1%;
+border: 1px solid rgb(250, 138, 156);
+border-radius: 10px;
+cursor: pointer;
+}
+
+.texto-oculto{
+    display: none;
+}
+
+.card:hover{
+    background:rgb(250, 138, 156);
+    color: white;
+    padding: 40px;
+}
+.card:hover img{
+    display: none;
+}
+.card:hover .card-text{
+    display: none;
+}
+.card:hover .texto-oculto{
+    display:block
+}
+
+footer{
+    margin-top: 250px;
+    height: 400px;
+    background-image: linear-gradient(180deg,rgb(0, 0, 57), rgb(0, 0, 26), rgb(0, 0, 0));
+    text-align: center;
+    border-top: 5px solid rgb(250, 138, 156);
+}
+.logo-rodape{
+    padding: 100px;
+}
+.Latim{
+    color: white;
+    font-family:  'Playfair Display SC', serif;
+    font-size: 34px;
+}
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 100px ;
+}
